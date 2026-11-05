@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.liberu.dev/module/v1.json",
+  "name": "cms-content-types-filament",
+  "display_name": "Cms Content Types",
+  "description": "Cms Content Types Filament presentation module skeleton",
+  "version": "0.1.0-alpha.0",
+  "category": "presentation",
+  "provider": "Liberu\\Presentation\\Capabilitye6fa4f80b99b\\CapabilityServiceProvider",
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {},
+    "capabilities": []
+  },
+  "presentation": {
+    "filament": {
+      "admin": [
+        "Liberu\\Presentation\\Capabilitye6fa4f80b99b\\CapabilityPlugin"
+      ]
+    }
+  },
+  "capabilities": [],
+  "features": [
+    "Filament package extension entry (skeleton)"
+  ],
+  "default_enabled": false
+}
