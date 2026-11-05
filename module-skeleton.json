@@ -1,0 +1,15 @@
+{
+  "repository": "module-cms-content-types-filament",
+  "capabilityKey": "liberusoftware/module-cms-content-types",
+  "presentation": "laravel-filament",
+  "package": "liberusoftware/cms-content-types-filament",
+  "foundation": "module-boilerplate-filament",
+  "foundationCommit": "9282e55622b1abd4db48da891480cd9cac46c158",
+  "canonicalPlan": "projects/cms/nextjs/cms-content-types.md",
+  "presentationPlan": "projects/cms/filament/cms-content-types.md",
+  "identityReviewRequired": false,
+  "status": "skeleton",
+  "documentedConsumerScopes": [
+    "cms"
+  ]
+}
